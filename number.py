@@ -25,7 +25,7 @@ def game_core(number):
             min_range=av_range
         elif number < av_range: 
             max_range=av_range
-        av_range=round((max_range+min_range)/2)
+        av_range=(max_range+min_range)//2
     return(count)
 
 # Проверяем
